@@ -1,0 +1,10 @@
+/.idea/
+/createDDL.jdbc
+/derby.log
+/dropDDL.jdbc
+/ecllinkbug.iml
+/ij.properties
+/run.sh
+/show-derby.sh
+/simpleDb/
+/target/
