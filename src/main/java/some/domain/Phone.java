@@ -1,4 +1,4 @@
-package nfon.domain;
+package some.domain;
 
 import javax.persistence.DiscriminatorValue;
 import javax.persistence.Entity;

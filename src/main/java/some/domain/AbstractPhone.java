@@ -1,4 +1,4 @@
-package nfon.domain;
+package some.domain;
 
 import javax.persistence.DiscriminatorColumn;
 import javax.persistence.DiscriminatorType;

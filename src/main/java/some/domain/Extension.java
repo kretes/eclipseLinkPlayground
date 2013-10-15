@@ -1,4 +1,4 @@
-package nfon.domain;
+package some.domain;
 
 import java.util.ArrayList;
 import java.util.List;

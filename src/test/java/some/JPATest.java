@@ -1,4 +1,4 @@
-package nfon;
+package some;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -6,8 +6,8 @@ import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
 
 import junit.framework.Assert;
-import nfon.domain.Extension;
-import nfon.domain.Phone;
+import some.domain.Extension;
+import some.domain.Phone;
 import org.junit.Before;
 import org.junit.Test;
 
