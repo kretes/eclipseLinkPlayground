@@ -38,7 +38,7 @@ public class CascadePersistDetachedEntityTest {
 
             Root root = new Root();
             root.child=child;
-            em.persist(root);
+            em.merge(root);
             em.flush();
             em.clear();
 

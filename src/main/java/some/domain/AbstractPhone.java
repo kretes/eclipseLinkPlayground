@@ -12,9 +12,6 @@ import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
-import org.eclipse.persistence.annotations.JoinFetch;
-import org.eclipse.persistence.annotations.JoinFetchType;
-
 @Entity
 @Table(name = "Abstract")
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
@@ -29,7 +26,7 @@ public abstract class AbstractPhone  extends AbstractDevice {
 
     @ManyToOne(fetch= FetchType.EAGER)
     @JoinColumn(name = "ENTITY_ID")
-    @JoinFetch(JoinFetchType.OUTER)
+//    @JoinFetch(JoinFetchType.OUTER)
     public Extension extension;
 
 	public AbstractPhone() {
